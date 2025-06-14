@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-
+app.use('/productos',productoRoutes);
 // app.get('/productos',productoRoutes)
 app.get('/', (req, res) => {
   res.send('Prueba del servidor api para los datos del host 4001 ');
