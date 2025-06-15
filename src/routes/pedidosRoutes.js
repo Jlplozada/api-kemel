@@ -3,16 +3,16 @@ import express from "express";
 
 const router = express.Router();
 
-router.get('/');
+// router.get('/');
 
-router.get('/:id');
+// router.get('/:id');
 
-router.post('/');
+// router.post('/');
 
-router.put('/:id');
+// router.put('/:id');
 
-router.patch('/:id');
+// router.patch('/:id');
 
-router.delete('/:id');
+// router.delete('/:id');
 
 export default router;
